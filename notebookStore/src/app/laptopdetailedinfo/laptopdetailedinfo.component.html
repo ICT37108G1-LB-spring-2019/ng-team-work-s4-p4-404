@@ -1,0 +1,23 @@
+<!-- {{ids}}
+
+<ul>
+
+
+</ul>
+
+<h1 *ngFor='let datas of dat'>
+
+
+
+
+ -->
+
+
+<div class="img1">
+  <div class="info" *ngFor='let datas of dat'>
+      <img src="{{datas.img}}" alt="qq">
+      <div class="text">{{datas.name}}<br>Resolution:{{datas.resolution}}<br> Processor:{{datas.Processor}}
+<br>Hard Drive:{{datas.HardDrive}} <br> Ram:{{datas.RAM}}</div>
+      </div>
+</div>
+

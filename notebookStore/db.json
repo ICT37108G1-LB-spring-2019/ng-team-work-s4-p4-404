@@ -1,0 +1,6 @@
+{
+    "laptops": [
+      { "id": 1, "img": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/131/13193/13193825.jpg", "name": "Lenovo","model":"HP ENVY","resolution":"1920X1080","Processor":"Intel Core i3 Dual-Core 2.1 GHz ","HardDrive":"SSD","RAM":" 4GB DDR3" },
+      { "id": 2, "img": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/115/11558/11558814.jpg", "name": "ASUS ","model":"HP ENVY","resolution":"1920X1080","Processor":"Intel Core i3 Dual-Core 2.1 GHz ","HardDrive":"SSD","RAM":" 4GB DDR3" }
+    ]
+}

@@ -1,0 +1,17 @@
+*{margin:0px; padding: 0px}
+
+
+
+
+.img1 {
+position: relative;
+text-align: center;
+}
+
+div.info  {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-0%);
+  border:1px solid green;
+}

@@ -1,0 +1,64 @@
+*{margin: 0px; padding: 0;}
+
+
+body{
+  font-family: roboto;
+}
+
+nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+a {
+  text-align:center;
+  text-decoration: none;
+  background-color:black;
+  opacity: 0.8;
+  color:white;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+
+a:hover{
+  opacity: 1;
+}
+
+*{box-sizing:border-box;}
+
+.laptops{
+  margin-top: 15px;
+  display: inline-block;
+  padding: 0 6px;
+  float: left;
+  width: 24.9999%;
+  background-color:transparent;
+  margin-top: 50px;
+}
+
+div.gallery img {
+  width: 100%;
+  height:250px;
+}
+
+div.gallery {
+  border: 1px solid gray;
+}
+
+.text {
+  text-align: center;
+  color:black;
+  font-size: 30px;
+  padding: 15px;
+}
+
+.clearfix:after{
+content: "";
+display: table;
+clear: both;
+}
+
+ div.gallery:hover {
+
+}

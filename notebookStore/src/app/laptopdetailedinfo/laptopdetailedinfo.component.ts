@@ -7,7 +7,6 @@ import {RequestService} from '../request.service'
 })
 export class LaptopdetailedinfoComponent implements OnInit {
 @Input() ids;
-dat = [];
 
   constructor(private req:RequestService) { }
 

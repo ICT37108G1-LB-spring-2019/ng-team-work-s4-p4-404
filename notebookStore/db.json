@@ -1,6 +1,64 @@
 {
-    "laptops": [
-      { "id": 1, "img": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/131/13193/13193825.jpg", "name": "Lenovo","model":"HP ENVY","resolution":"1920X1080","Processor":"Intel Core i3 Dual-Core 2.1 GHz ","HardDrive":"SSD","RAM":" 4GB DDR3" },
-      { "id": 2, "img": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/115/11558/11558814.jpg", "name": "ASUS ","model":"HP ENVY","resolution":"1920X1080","Processor":"Intel Core i3 Dual-Core 2.1 GHz ","HardDrive":"SSD","RAM":" 4GB DDR3" }
-    ]
+  "laptops": [
+    {
+      "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSEhAVFRMVFxUVFRcXGBgWEhUVFRUWFhUVFxUYHSggGBolGxUVITEhJikrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQGy0dHx4tLS0rLS0rKy0rLSsrLS0tLS0tLS0rLS0tLS02LS0tLS0tKy0tNy0tLTctKys3LS0rK//AABEIAMIBAwMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAAAwEEBQYHAgj/xABGEAABAwICBgYGBwYEBwEAAAABAAIDBBESIQUxQVFxkQYTYYGhsQcUIjJCwSNicoKSotEzUrLh8PFDU3ODFRZEY7PC0jT/xAAaAQEBAQEBAQEAAAAAAAAAAAAAAgEDBAUG/8QAJhEBAQABAwQCAgMBAQAAAAAAAAECAxESBBMxQSFRBWEUIkIjFf/aAAwDAQACEQMRAD8A7iiIgIiICIiAiIgIiICIiAiKl0FUVMSXQVRUul0FUS6pdBVEVLoKoiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgLWenmlZaem+gcBNK9sUZOwuuXHuaCtlutB6dT462mh2RRyTu4uIjj8nq9LHnnMU5XaWtT9b0yzVWE8XNPg5q9jpPptvxNdxZEfKyzDioXEL60/H6d+3i/k5RZR9PdMN96mhcP9N1/wAsinZ6UK5v7TRzTw6xvycpMRXps5WX8Zj6rZ1d9wZ6YCPf0e4b7Sf/AEwK6i9MVN8VNMOGA/8AsoRPvXl0UbveY08Wg+YXK/jr9rnVT6ZMel3R9rv65vGMn+G6uofSpot3/VW+0xw8wtbm0PTu108R+439FYS9FqQ/9MzuFvJR/wCdn6sV/Jn06HB0/wBGO1V8Pe6x8VkYOklG/wB2rhP+439VyGToXRn/AASODivDegtN8Jkb3g+YUXoNWNnU4V26Kvid7srHcHNPkVOHLg7ugbPhneOIHyUf/JkzfcrXD8bfJy53pNWelzWwd9ul1wVuhNJM/Z6RlH+9K3wupQ/TjPdrnnjI13/kaovT6s/zVdzH7d1ugK4eOkOn2a3Y+LID5WKkb0/00z36Zrh/oO82uU3SznpvPH7dsuqrizfSzXN/aUDT92Rnm0q6g9NJB+kobDbhfc912hRcbPTd46+ixuhdMsqYI6iMHBI3ELixGwg9oIIRY1kkREBERAREQEREBERAREQUXJtL1Bkr6qUamuZA3hG27rfecV1KrnDGPecgxrnHgBdcr0LTYoWyH3pS6U8ZXF1u69l7egk7u9cOo347QDzvUlzuUz6RQujI2r73KXw+bxsSsspmwAqxE4CljqNyy4X0qWLzqQvQiCt21HYpm1C5WZRcsSdUvLmI2cKS6jezyr4qHCqAqbEqF43Ld6bR4yVSQvdwoJngJPmsu0VLkD1ZSzlWrqkrtNLdyucZfvVQ1YYVJUjao71t0adyMsOKwfTOcMo5TYFxAYMhe7jb9Vctq1idPfTzUdMP8SdpI+q3+5Xl6rDhp27O2llMspI6v0P0d1FDTRbWRMB4kXPiSiy7W2AA1DLki/PvopEREaIiICIiAiIgIiICIiDV/SLVGOglAPtS4YG9plcGn8uLktWpqkNAYcgAAO4D9FlPSRVXmo4NYD5Khw7I2FjL/ekPJYaSYHfyX1vx+l/W5beXj6nLaxdOlB1PUEsbjturJzNyWkGrNfVmG3ivJct3t9G5QGnIUzax41tKnbpIanNI7lvLKM2lWjGneprnevZex22yikjOxy3fkzbZPG4q4im7ViOsIUsc3amWnuTNmgVG9qtopypg8LhxsrrylSMi7V79XC8smClbOFzy5elTj7QupAraWl7FfmYKCSrG1Vhlqe2ZY4MeadeTTq7dO0qjcK787J8uXGLE0yj6JUvW6ZjGttPC6Q9jsmjxesoWr16IoMc9fVEa5GwtPYy7nW5t5LwfkNb/AJzH7ejpsP7bunIlkXwX0FURFQIiICIiAiIgIiICIvLnWBO5BzvSbmzaSqC45Qsihb9o3kk82qSWij7R5KHo6wyxvnIB9YlkmF/3XOIjz+yGq/NOf3bcD/QX1Ony44Sb7PLqTfK3ZZimZ/mNPHWgDBt5fzVy+lB2fi/VQuohtjPdmvVM5Z81xuN+lBI3s77BHhu0fNePUWHa5vFpsqHR51tcD32W8sftll+leqYdg5I6mZsIVeodbNrvNQ9Sy9sWfaM1Uv7Nv0hqafcLqCKlv8Cy0VORqNxzUnqt87clXf29p7e7FNpyPgKuGU994VzM1zdV1FHWOORAPeQsueWU3jZjJflT1X6w5KKWn7Vfh7iPdHNW8zH7GjzWYZ5e23Gelj6ruconQu3lSysmGqyjFTMNYXox5erHG7IH4hsv3KjXu2NV6ytftYCp2V7fiZZLnlPW7ZjL7YmurnxxPeW5Na48gVtvojoer0bETrlLpT992XgAtO6dVTfU3MZ70rmRjg43Pkus6FohDBFEBbBGxvJoB8V8br9TlnJ4e3psNsd16iIvnvSIiICIiAiIgIiICIiAsF03rTDQ1D2++Y3MZ9uT6Nni4LOrUenkmN1HT7JKhsjvsQAyHuJDR3oLvRujRFDHEBbAxjfwix8VI6mKq2sK9ir3hdJnYnjFs+ldvUPqrt/gFkhUN3EL0HNO1dJ1Fie3GLMTt6jFOd/Ox8VmeqBXkwK51DO2xTmlvwk8Fby9W73m8xZZswKF1LxW46s8suDCmjtmwm3Yfkq2eNuLuz8FkzQi97DuVeo7F2uvL+0dusZ6xvaRxBCoWtPwg8LFX0lMdhsoupdtAPJVM56ZZfa0It8PhZefWLbPAlXb4hut3ZeBVvJB227yumOWOXlFli2lnvuP9dqsZHH9w/JZJzHbSDzHyQR9nJwXfHOYudx3YgPd+6BxBU4bfW1ZEQkZkvHEBw8FKy2yQcv1S62/gmm03SFK2XSFBTBvvS9Y8Z+7H7Zy4NPNdqXLeisfXabmkvibSwBgOzHJb5Yl1IL43UZ887Xu08eOIiIuKxERAREQEREBERAREQUK5/0jrGu0nY6oIABrIxzOudWo4WDmt/cuTwTmaaqna9v0k7w241si+iYQcsiG3yO1ddHDlknO7RscdTqIzv2j+6o+tAyJN+axhnc3J2C3a4gfmBUkwFg6zRwIc3xyXr7LjzZaKruN/BTCfLsWsu0gWnURuyyPJTMrnPIDcFtx1+B+Si6CpqNhZVBTMqjvKwhDxmAL9lyqw1mdnEA7rWXK6Oy5m2AVZ7D3L22r7FgZasX1juOa9trwRrz4Z81PareUZ4VDdoXoPadoWDFV2qVlUN6njY3eVmMAVDAsYKkbFKypO9PmHwuzAvDqfsXhtU7ipBV7wEmdhxiF1KNyjdRhXoqG7l6EjTtVTWyibhGNbTkKr4G/EMhmeAWTwA7lhumNQIKKok1ERuA4uGEeavvVnBhfQ7Fjjqqs/wCPUOLfsNOXmujrV/Rro/qdG0zLWLmCQ8ZPa8iFtC89u7oIiLAREQERUQVRUurerr4ohilkYwb3ODfNBcryCtN0p6TaCLJr3TO3Rt9m/wBp1hyutSr/AEsTSG1PAyPtebnxsOV1UxtZbHX8SxWkektJBlLUxh37oOJ/4G3K4pWaerJ//wBE8uA5WjIweFvIrC423IjOI31yNAFuJIF+AKqabOTt0vT2ifG4snwuIcG4w5jcVjhu4iwzsuX6Mq6+FgjZE2ZjRb6NzZRvJ9k3G/UsVVMwxlhu4utk2a47gALdwWCqmuYPaJa4EFtm2PC5z71ePLC741Nsvlv7elAGU0c0R2hzCWfhcCr6n0tSnNtTGCezBzaFzyn09UtbdszmhusOfjuOxjrhXY6Ql4u6GKXY4uiDSPvsK6zX1J5kqeGP7b1M8HNghf8AWa8tP5SonVbwNfNzJG83AHxWmDSNNcfQOa46jBMf4Xi3ir31iIG3rUsZOoTwh4P34iTbuV/yZ/qM7X1W3waZIHtRscN4Fj4X8FkqWsjkGQDTuJv4ErQKemfe8UlNLtsyXq3fgfhzWTZXTRj26WZu8tDZG962a2lfPwdvONrkEg9y1uFxy/kjJ3jW2/2XYT+FxC1yj6RU/wAeEHbia6J34gCPFZFukaeQajbe1wcObCTzXSXDb4qbynmM117frNP1rt8dSqam+bTi+8D4/wA1iaeWI+y2pPY14t3AuAVWUwxe3Fwd/MEhTcYS1loKkg+1fli8gVeNnvniuOPyWBc63xkdhNxz1eK8+tbw48DfzFvFZdOVvJnxVcuyxUgqdpd4LBx2eMiRxH6EqSNr2+9Y+BWXQh3Gd6/jy8lJ6z/VlrwmffJw4EZ+anjY854hwcCPFc8unkXNRnWzLUfShUOfSx0zScVTNHEBtNzbzIWZgkvqcAexwI5LC1EfX6YoodYga6odtF88J5gLjlhxm65lu6lTxBjWsaLNaA0cALDyUiBFxUIiIKFUL7C5IAXKOl3TnSUT3RshjpxchrnjE5w1BzXOsw+Otc60vpitmzqJ5nDtccHcG+zZXNO1Ny2d90r0zoae4kqWXHwtON3Jq07SvphjFxTUznnY6Q4G8cIu48Mlxu69XXSaURzrctKekavmuOuETTsibh8Tc+K1iepkkdike6Q/WcfNWwUrVfGJ3LnES0YNxBLjyV0+pvliLyB8bQ0c8vIqJoUgG9NmpJ6XDh6wsANiBE4Pd3/2V057rYWF7W5G7w0A8hdWbImg3Asd7cieWtXDYXEgukJFsg+5byFr9902pumcWtBEbYpHnWWudiz32/VYvSNPYF0mPFsBsW25m3NZgXtYxRuGzCQD3AjyWO0hA29yx7T9bE4d172WbDDuaXC5LQBusLr0wlwtG117e0bk37V6nDnWF7gbBr+ZUZdYABpB2nEfJB7jkwDIi5yIw38yq0+XtuFwMh7QFid2S8QkNF7jFsGG/nrVYIi67iMhnra3ldabpGTF7gXOJA7L8Lq6i0k9rwIyWgZHAXsDu0+0f0VgJTctaSBtFy7LkquLQfZ9u4vqN/G6zZu7Oyafka4Nc8uzGLGGSgDeLgk817/4nC63WUsBJNrs62ncO27S4d9lgWixBde24Wvbv+aTyYiMyWjViOzuU8J9N51tDJ4MrSVUJ1Cz454wd2eF3gr2Ote0+xXwm2yaN0R4XI+a0ydwAAAbvuAbr0ZXhv7R9jmMznt1/wA02s8VvKXzHR4dNVe2lhmG+GQX5XKpL0jhH7ekmiO8sy/ELLnjK1ziSRHiI9613XtkTY3V5B0llZkyaZh1WEjntuBtbKXAcFc1NWe908cL6b5TdI6R3uvt2E4T3XyPNXZroj7lRh7HWI5haH/zCHgda2nkNva62FrXX7JIsPiFSOqpHtv6q5pJLbQTEnLbgkFgO9XOpznnFnaxvit+ay/xCQb2EX/Ccl6dUPacs27vdfy2rQGMpjcx1c0VtfWRktbnYXc3IK+ppKnLqa6Gbs60Bx7ML10nVY7f2mzOzl6rfYpYnayWu7beRXj0cwdbpKuqNbYw2Fh4a/4Vqv8AxmqiH01A51viZcatpMeXgt79DVLahdMdc80j77w12AZ7c2uXn1tTHKf1XhjlPLfQqoi8zoIiIIp4GvaWvY1zTrDgCDxB1rXazoNQyXtB1ZO2IlngMvBbOi2XY2cy0n6KWOuYp+6Rgd+ZlitU0l6NKuO5EHWDfDIHH8EmE8rrvCKpqWJuMfMNZoSSI2e17DukY6PxIsrYUzteE23jMcwvqSWIOFnAOG4i48VgNI9C6KY3dTNa4/Ey8bubVc1ftNwfPTQriGMHX4ldY0l6KWOuYKuRm4SNbKwfwu8VrNT6Mq+MZdTPbawmNx3ey79SrmpizjWrRW2Wz8FcNAHD5969Vmh6mH9rTTM7cONvNuxWcdSNQc0njY8irmcTYuyzYdud/wC6tpSQDZxG7Ow5bVMZMsx+ihlcFW8Yx8zr5OYx33bHw/RWr8O5w4HEOTld1ZHw37wArJ52bFlg89Rf3XDvaR4i4URhwkFwuDucLEcQveIjUbKJyjZqgdnl7IByvsHH+arKADkcW29vlmvBXkpsJnsNgS0gHMbRy2ckdINQOvXxUGI7/n/XNSB5tYFtt2rzFv61JsLhkZAvdp32cLjuNjyUOK+s8/1/VeGnI3ac9oztw1eSqJBqxW7O371h3o17a7K1hbcM7d2akbTPsSAdV8nNy4txD5q1fMBcZO3nPLgTfwVGF7zZoO6zb+abG66FW5l8LyBlcWzPdayt5qku1tbffYYvBXkGhnHN5wjcM3H5LbNAdBqiaxhpyG/5knsj8wvyCWyHzWkR0kjhf2gDkSb5jhtsshojQhqDhhidO+9g0DLvtkBxNl2TQfomhaxvrkpqHC12i7I7jfnd3et+0Zo2KBuCGJkbdzQAud1NvCph9uFaMk0jo+KWnGj5mmQjC/qi6Jos4FrQwkZ31rtXRLRxp6OngPvMjaHfbIu/8xKy6LjXTeiIiAiIgIiICIiAqKqIKIqog8FqxmkOjdJPfrqWJ99paMXMC6yyINDrvRXSOuYZJ6c/UfiZ+F4Pmtc0h6LKpt+qqIZRsD2mN3NpIXX0VTKxnGPnbSnQuuizfRyED4orSt5D2vBazURYXYXey7914LH/AIXWK+rSFbVujophhlhjkbuexrxyIVzV+03B8qSMI1hQlfRVf6MtGye7TmE74XOjH4QbeC1XSfoZGuCrPCVgd+ZtiqmpE8K46VQrd9Kei/SMVy2BsrR/lPBd+F9vC61Ov0ZNCbTQSxH/ALkb2Dm4WPNXyjNliqFSwQue4MYMb3GzWtsXE7gLrYtF9CaiV1nNIO1rAZJO/Dk3vW7xjVvBXdHoiaXNrCB+87IfqV1rQXotcLFzGR9slnydzR7IW76O6DUsecgMzvr+5+AZc7qLqRXC1xDQvQp8ps1j5nfVFoxxd/NdD0P6LnkDrpGxN/cjALueoeK6hDC1owtaGtGoAWA7hkpQud1LVzCRgNEdD6SnsWQguHxv9t/M6u5Z0BekXPduwqKqI0REQEREBERAREQEREBERAREQEREBERBRVREBUsqogoQqOYCLEXG46uS9IgsBoanxB3q8WIG4PVsuDvvZXjIgBYAAbgLBe0QUsqoiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiIP/2Q==",
+      "name": "HP",
+      "model": "asdsad",
+      "resolution": "sadsadsad",
+      "Processor": "sadsadsa",
+      "HardDrive": "sadsadsa",
+      "RAM": "dsadsad",
+      "id": 4
+    },
+    {
+      "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05551586.png",
+      "name": "asdsad",
+      "model": "fdhfd",
+      "resolution": "sadsadsad",
+      "Processor": "asd",
+      "HardDrive": "fdhfdhfd",
+      "RAM": "dsadsad",
+      "id": 5
+    },
+    {
+      "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05551586.png",
+      "name": "asdsad",
+      "model": "fdhfd",
+      "resolution": "asdsad",
+      "Processor": "asd",
+      "HardDrive": "fdhfdhfd",
+      "RAM": "asdasd",
+      "id": 6
+    },
+    {
+      "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05551586.png",
+      "name": "asdsad",
+      "model": "fdhfd",
+      "resolution": "asdsad",
+      "Processor": "asd",
+      "HardDrive": "fdhfdhfd",
+      "RAM": "hfdhfdhfdh",
+      "id": 7
+    },
+    {
+      "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05551586.png",
+      "name": "asdsad",
+      "model": "fdhfd",
+      "resolution": "sadsadsad",
+      "Processor": "fdhfdhfdh",
+      "HardDrive": "fdhfdhfd",
+      "RAM": "dsadsad",
+      "id": 8
+    },
+    {
+      "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05551586.png",
+      "name": "sadasd",
+      "model": "dasdsad",
+      "resolution": "asdsad",
+      "Processor": "asd",
+      "HardDrive": "asdsadasd",
+      "RAM": "asdasd",
+      "id": 9
+    }
+  ]
 }

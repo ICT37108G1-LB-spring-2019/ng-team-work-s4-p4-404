@@ -1,0 +1,5 @@
+<ul class="list-group" *ngFor='let items of data'>
+    <li class="list-group-item"><img src="{{items.img}}" alt="" width="200px" height="200px"></li>
+    <li class="list-group-item active" >{{items.name}}</li>
+    <button type="button" class="btn btn-danger" (click)="onclick(items.id)">წაშლა</button>
+  </ul>
